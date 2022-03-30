@@ -1,0 +1,23 @@
+@font-face{
+    font-family: 'OrcaStd';
+    src:url('site/OCRAStd.otf') ;
+}
+body {
+    background-image: url("site/Background_img.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.body{
+    background-image: url("site/PlanDeTravail2.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+   
+}
+#Visiteur{
+    margin:  
+    background-image: url("site/sitePlandetravail7-8.png");
+    background-repeat: no-repeat;
+    color: antiquewhite;
+    font-family: 'OrcaStd';
+}
+
