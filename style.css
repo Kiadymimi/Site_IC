@@ -6,18 +6,40 @@ body {
     background-image: url("site/Background_img.png");
     background-repeat: no-repeat;
     background-size: 100%;
+    margin: 0;
 }
 .body{
     background-image: url("site/PlanDeTravail2.png");
     background-repeat: no-repeat;
     background-size: 100%;
-   
+ 
 }
-#Visiteur{
-    margin:  
-    background-image: url("site/sitePlandetravail7-8.png");
-    background-repeat: no-repeat;
+.header{
+    width: 100%;
+    height: 40%;
+}
+#fond{
+    width: 30%;
+    height: 30%;
+    z-index: 20;
+}
+#reseaux_sociaux{
+    width: 80%;
+    height: 25%;
+   z-index: 300;
+}
+#box{
+    width: 100%;
+    height: 75%;
+}
+.container{
+    display:flex;
+    justify-content: center;
+}
+.item{
+    font-size: 2em;
     color: antiquewhite;
     font-family: 'OrcaStd';
+    text-align: center;
 }
 
