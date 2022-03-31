@@ -2,6 +2,10 @@
     font-family: 'OrcaStd';
     src:url('site/OCRAStd.otf') ;
 }
+@font-face {
+    font-family: 'SocialMedia';
+    src: url('site/social\ media.ttf');
+}
 body {
     background-image: url("site/Background_img.png");
     background-repeat: no-repeat;
@@ -14,32 +18,52 @@ body {
     background-size: 100%;
  
 }
-.header{
+header{
     width: 100%;
-    height: 40%;
+    display: flex;
+    justify-content: center;
+    padding-top: 9%;
+    align-items: center;
 }
 #fond{
-    width: 30%;
-    height: 30%;
-    z-index: 20;
+    display: contents;
+    font-family:  'SocialMedia' ;
+    font-size: 3em;
+    
 }
-#reseaux_sociaux{
-    width: 80%;
-    height: 25%;
-   z-index: 300;
+#fond a{
+    color: #02fefc;
+    text-decoration: none;
+    text-size-adjust: auto;
 }
+
+#fond img{
+    position: absolute;
+    z-index: 1;
+}
+
 #box{
     width: 100%;
-    height: 75%;
+    display: flex;
+    justify-content: center;
+    
 }
 .container{
     display:flex;
     justify-content: center;
+    padding: 100px  20px;
 }
-.item{
-    font-size: 2em;
-    color: antiquewhite;
+.visiteur{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    font-size:2em;
     font-family: 'OrcaStd';
-    text-align: center;
+    color: antiquewhite;
+    
+}
+.visiteur img{
+    position: absolute;
 }
 
