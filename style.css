@@ -41,29 +41,44 @@ header{
     position: absolute;
     z-index: 1;
 }
-
 #box{
     width: 100%;
-    display: flex;
-    justify-content: center;
-    
+    display: flex;  
 }
-.container{
-    display:flex;
-    justify-content: center;
-    padding: 100px  20px;
-}
-.visiteur{
-    display: flex;
-    position: relative;
-    justify-content: center;
-    align-items: center;
-    font-size:2em;
-    font-family: 'OrcaStd';
-    color: antiquewhite;
-    
-}
-.visiteur img{
+#box  p{
+    color: #fff;
+    font-family: 'OrcaStd' ;
+    font-size: 2em;
+    z-index: 32;
     position: absolute;
 }
+.content{
+    width: 50%;  
+}
+.items{
+    display: flex;
+    justify-content: end;
+    padding-top: 5%;
+    
+}
+.items div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+}
 
+.content img{
+    width: 95%;
+    z-index: 23;
+}
+.content .reverse{
+    transform: rotateY(180deg);
+}
+.gauche {
+    padding-right: 0%;
+}
+.droite{
+    justify-content: flex-start;
+    padding-left: 0%;
+}
