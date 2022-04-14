@@ -38,7 +38,7 @@ header{
 }
 
 #fond img{
-    position: absolute;
+    position: absolute; /*il peut se placer où il veut dans la pile*/
     z-index: 1;
 }
 #box{
@@ -72,7 +72,7 @@ header{
     width: 95%;
     z-index: 23;
 }
-.content .reverse{
+.content .reverse{ /*inverser l'image*/
     transform: rotateY(180deg);
 }
 .gauche {
