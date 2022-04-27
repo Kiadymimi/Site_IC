@@ -16,13 +16,12 @@ body {
     background-image: url("site/PlanDeTravail2.png");
     background-repeat: no-repeat;
     background-size: 100%;
-
 }
 header{
     width: 100%;
     display: flex;
     justify-content: center;
-    padding-top: 9%;
+    padding-top: 10%;
     align-items: center;
 }
 #fond{
@@ -63,13 +62,14 @@ header{
 .content{
     width: 50%;  
 }
+
 .items{
     display: flex;
     justify-content: end;
-    padding-top: 5%;
+    padding-top: 9%;
     
 }
-.items div{
+.items a{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -92,6 +92,7 @@ header{
     padding-left: 0%;
 }
 
-.content  img:hover{
-    width: 50em;
+.content a:hover{
+    width: 100%;
+    margin-left: -10%;
 }
