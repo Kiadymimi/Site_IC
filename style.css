@@ -16,7 +16,7 @@ body {
     background-image: url("site/PlanDeTravail2.png");
     background-repeat: no-repeat;
     background-size: 100%;
- 
+
 }
 header{
     width: 100%;
@@ -29,28 +29,36 @@ header{
     display: contents;
     font-family:  'SocialMedia' ;
     font-size: 3em;
-    
+    position: fixed;
+}
+.container1{
+    z-index: 50;
+    position: absolute;
 }
 #fond a{
     color: #02fefc;
     text-decoration: none;
-    text-size-adjust: auto;
+    text-size-adjust: auto; 
+}
+
+.container1 a:hover{
+    font-size:1.5em;
 }
 
 #fond img{
-    position: absolute; /*il peut se placer où il veut dans la pile*/
-    z-index: 1;
+    position: absolute; /*il peut se placer où il veut dans la pile*/  
 }
 #box{
     width: 100%;
     display: flex;  
+    
 }
 #box  p{
     color: #fff;
     font-family: 'OrcaStd' ;
     font-size: 2em;
     z-index: 32;
-    position: absolute;
+    position: fixed;
 }
 .content{
     width: 50%;  
@@ -71,6 +79,7 @@ header{
 .content img{
     width: 95%;
     z-index: 23;
+    
 }
 .content .reverse{ /*inverser l'image*/
     transform: rotateY(180deg);
@@ -81,4 +90,8 @@ header{
 .droite{
     justify-content: flex-start;
     padding-left: 0%;
+}
+
+.content  img:hover{
+    width: 50em;
 }
