@@ -17,10 +17,6 @@ body {
     background-repeat: no-repeat;
     background-size: 100%;
 }
-.header p{
-    font-family: 'OrcaStd';
-    
-}
 .header{
     width: 100%;
     display: flex;
@@ -28,15 +24,26 @@ body {
     padding-top: 10%;
     align-items: center;
 }
+.IC{
+    color: #fff;
+    font-family: 'OrcaStd' ;
+    font-size: 2.2em;
+    position: fixed;
+    padding-top: 1.4%;
+    padding-left: 39%;
+}
 #fond{
     display: contents;
     font-family:  'SocialMedia' ;
     font-size: 3em;
     position: fixed;
+    
 }
 .container1{
     z-index: 50;
     position: absolute;
+    padding-top: 8.5%;
+    padding-left: 41%;
 }
 #fond a{
     color: #02fefc;
@@ -48,4 +55,13 @@ body {
 }
 #fond img{
     position: absolute;
+    padding-top: 8.1%;
+    padding-left: 38%;
+}
+.MENUCIRCLE{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 35%;
+    align-items: center;
 }
