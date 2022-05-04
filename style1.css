@@ -62,6 +62,39 @@ body {
     width: 100%;
     display: flex;
     justify-content: center;
-    padding-top: 35%;
+    padding-top: 38%;
     align-items: center;
+    position: fixed;
+    
+}
+#menu1{
+    margin-top: 1%;
+    margin-right: 0%;
+    margin-left: -1%;
+    transform: rotate(180deg);
+}
+#menu2{
+    margin-top: -6%;
+    margin-left: -0.5%;
+    margin-right: -10%;
+    transform: rotate(180deg);
+}
+#menu3{
+    margin-top: -13%;
+    margin-left: 9.5%;
+    margin-right: 1%;
+    
+}
+#menu4{
+    margin-bottom: 6%;
+    margin-right: 18%;
+    margin-left: -1.5%;
+    
+}
+#menu5{
+    margin-bottom: -3%;
+    margin-top: -2.5%;
+    margin-left: -18.5%;
+    margin-right: -1%;
+    
 }
