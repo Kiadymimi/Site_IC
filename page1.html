@@ -31,31 +31,33 @@
                 </div>
             </header>
             <div class="MENUCIRCLE">
-                <div id="center" onclick="myFunction()">
-                    <img src="site/sitePlan de travail 11-8.png" alt=""> 
+                <div id="center">
+                    
+                        <img src="site/sitePlan de travail 11-8.png" alt=""> 
+                    
                 </div>
                 <div class="sousmenu">
-                    <div id="menu1">
+                    <div id="menu1" class="menu1">
                         <a href="">
                             <img src="site/sitePlan de travail 11-8.png" alt="">
                         </a> 
                     </div>  
-                    <div id="menu2">
+                    <div id="menu2" class="menu2">
                         <a href="">
                             <img src="site/sitePlan de travail 11-8.png" alt="">
                         </a>    
                     </div>
-                    <div id="menu3">
+                    <div id="menu3" class="menu3">
                         <a href="">
                             <img src="site/sitePlan de travail 11-8.png" alt="">
                         </a>    
                     </div> 
-                    <div id="menu4">
+                    <div id="menu4" class="menu4">
                         <a href="">
                             <img src="site/sitePlan de travail 11-8.png" alt="">
                         </a>    
                     </div> 
-                    <div id="menu5">
+                    <div id="menu5" class="menu5 ">
                         <a href="">
                             <img src="site/sitePlan de travail 11-8.png" alt="">  
                         </a>    
@@ -66,9 +68,29 @@
         <script>  
             document.getElementById("screen").style.width = window.innerWidth;
             document.getElementById("screen").style.height = window.innerHeight+"px";
-            function myFunction(){
-                document.getElementsByClassName("sousmenu ");
-
+            let cond  = true;
+            document.getElementById("center").addEventListener("click", listeMenu);
+           function listeMenu (){
+               
+            var test1 = document.getElementById("menu1"); 
+            test1.classList.remove("menu1");
+            test1.classList.add("menu1click");
+            
+            var test2 = document.getElementById("menu2"); 
+            test2.classList.remove("menu2");
+            test2.classList.add("menu2click");
+            
+            var test3 = document.getElementById("menu3"); 
+            test3.classList.remove("menu3");
+            test3.classList.add("menu3click");
+            
+            var test4 = document.getElementById("menu4"); 
+            test4.classList.remove("menu4");
+            test4.classList.add("menu4click");
+            
+            var test5 = document.getElementById("menu5"); 
+            test5.classList.remove("menu5");
+            test5.classList.add("menu5click");
             }
         </script>
     </body>

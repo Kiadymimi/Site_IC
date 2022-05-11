@@ -63,15 +63,81 @@ body {
     display: flex;
     justify-content: center;
     padding-top: 44%;
-    align-items: center;
     position: fixed;  
 }
 .sousmenu{
     display: flex;
     justify-content: center;
+}
+/*au milieu*/
+
+.menu1{
+   display: none;
+}
+.menu2{
+   display: none;
+}
+.menu3{
     display: none;
 }
-#center{
-    margin-left: 0%;
+.menu4{
+    display: none;
+}
+.menu5{
+    display: none;
+}
+/* #center{
+    margin-left: 37%;
+    margin-right: 2%;
+} */
+/* #centerclick{
+    margin-left: 37%;
+    margin-right: 2%;
+}
+#menu1{
+   margin-right: -20%;
+   margin-left: -131%;
+   opacity: 0;
+}
+#menu2{
+   margin-right: -25%;
+   opacity: 0;
+}
+#menu3{
+    margin-left: 5%;
+    opacity: 0;
+}
+#menu4{
+    margin-left: -20%;
+    opacity: 0;
+}
+#menu5{
+    margin-left: -20%;
+    opacity: 0;
+} */
+.menu1click  {
+    position: absolute;
+    margin-top: -3%;
+    margin-left: -31%;
+}
+.menu2click{
+    position: absolute;
+    margin-top: -8%;
+    margin-left: -20%;
+}
+ .menu3click  {
+    position: absolute;
+    margin-left: -133px;
+    margin-top: -11%;
+}
+.menu4click{
+    position: absolute;
+    margin-top: -8%;
+    margin-left: 6%;
+}
+.menu5click{
+    position: absolute;
+    margin-top: -3%;
+    margin-left: 18%;
 }
 
