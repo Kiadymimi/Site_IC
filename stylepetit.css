@@ -1,0 +1,16 @@
+@media screen and (max-width: 1024px) {
+    body {
+        background-image: url("site/Background_img.png");
+        background-repeat: no-repeat;
+        background-size: 100%;
+        margin: 0;
+        orientation: portrait;
+    }
+    .body {
+        background-image: url("site/homvisiteur.png");
+        background-repeat: no-repeat;
+        background-size: 100%;
+        transform: rotateZ(90deg);
+       
+    }
+}
