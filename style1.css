@@ -13,11 +13,6 @@ body {
     margin: 0;
     padding: 0%;
 }
-/*.body{
-    background-image: url("site/homvisiteur.png");
-    background-repeat: no-repeat;
-    background-size: 100%;
-}*/
 .cadre img{
     width: 100%;
     position: fixed;
@@ -70,9 +65,7 @@ body {
     padding-top: 44%;
     position: fixed;  
 }
-/*.MENUCIRCLE #center img{
-    position: fixed;
-}*/
+
 .sousmenu{
     display: flex;
     justify-content: center;
