@@ -8,28 +8,43 @@
     <link rel="stylesheet" href="style3.css">
 </head>
 <body>
-    <div class="body">
-        <div class="connexion">
-            <h1>Connectez-vous</h1>
-        </div>
-        <form action="" method="post">
-            <div class="UserName">
-              <label class="UserName-label" for="UserLogin">Login : </label>
-              <input type="text" class="form-control" id="UserLogin" placeholder="Nom d'utilisateur">
+    <div id="id01" class="modal">
+        <form class="modal-content animate" action="/action_page.php" method="post">
+            <div class="imgcontainer">
+                <!--<span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>-->
+                <img src="site/Logo2.png" alt="LogoInfinityCreative" class="avatar">
             </div>
-            <div class="Pswd">
-              <label class="Pswd-label" for="formGroup2">Mot de passe : </label>
-              <input type="text" class="form-control" id="UserPswd" placeholder="xxxxxxxxxx">
+            <div class="container">
+                <label for="uname"><b>Username</b></label>
+                <input type="text" placeholder="Enter Username" name="uname" required>
+                <label for="psw"><b>Password</b></label>
+                <input type="password" placeholder="Enter Password" name="psw" required>
+                <button type="submit">Login</button>
+                <label>
+                    <input type="checkbox" checked="checked" name="remember"> Remember me
+                </label>
             </div>
-            <div class="bouton">
-                <button type="submit"> Go </button>
-            </div>
-          </form>
+
+            <div class="container" style="background-color:#f1f1f1">
+                <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+                <span class="psw">Forgot <a href="#">password?</a></span>
+           </div>
+        </form>
     </div>
-    
+</body>
       <script>  
         document.getElementById("screen").style.width = window.innerWidth;
         document.getElementById("screen").style.height = window.innerHeight+"px";
-    </script>
-</body>
+
+        // Get the modal
+        //var modal = document.getElementById('id01');
+
+        // When the user clicks anywhere outside of the modal, close it
+       // window.onclick = function(event) {
+            //if (event.target == modal) 
+              // {
+                //modal.style.display = "none";
+                //}
+        //}
+      </script>
 </html>
