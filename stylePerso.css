@@ -1,0 +1,24 @@
+@font-face{
+    font-family: 'OrcaStd';
+    src:url('site/OCRAStd.otf') ;
+}
+body{
+    background-image: url("site/Background_img.png");
+}
+.gradient-custom {
+    margin-top: 10%;
+    margin-left: 20%;
+    font-family: 'OrcaStd' ;
+    color: antiquewhite;
+    background-image: url("site/Background_img.png");
+}  
+    
+    .card-registration .select-input.form-control[readonly]:not([disabled]) {
+    font-size: 1rem;
+    line-height: 2.15;
+    padding-left: .75em;
+    padding-right: .75em;
+    }
+    .card-registration .select-arrow {
+    top: 13px;
+    }

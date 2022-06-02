@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Formulaire</title>
     <link rel="stylesheet" href="style3.css">
 </head>
 <body>
@@ -27,6 +27,7 @@
 
             <div class="container" style="background-color:#f1f1f1">
                 <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+               
                 <span class="psw">Forgot <a href="#">password?</a></span>
            </div>
         </form>
@@ -35,7 +36,9 @@
       <script>  
         document.getElementById("screen").style.width = window.innerWidth;
         document.getElementById("screen").style.height = window.innerHeight+"px";
-
+        function rtrn (){
+            window.location.href="index.html";
+        }
         // Get the modal
         //var modal = document.getElementById('id01');
 
